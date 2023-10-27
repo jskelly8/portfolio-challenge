@@ -11,30 +11,41 @@
 <body>
     <!-- Header Nav Bar -->
     <header>
-        <h1>Jess Skelton</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="#resume">Resume</a></li>
-            </ul>
-        </nav>
+        <div>
+            <h1>Jess Skelton</h1>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
-    <!-- Picture banner -->
-    <figure></figure>
+    <!-- Hero Image Banner -->
+    <section id="heroBanner">
+            <img src="./assets/Images/StockSnap_ZNNYR5KMER.jpg" alt="" />
+    </section>
 
     <!-- About Me Section -->
     <section id="about-me">
-        <h2>About Me</h2>
-        <!-- img of me -->
-        <p>**Blurb about me**</p>
+        <div class="aside-title">
+            <h2>About<br>Me</h2>
+        </div>
+            <!-- img of me -->
+        <div class="main-content">
+            <img src="./assets/Images/MeCropped.png" alt="Picture of Jess Skelton" id="JessImg"/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
     </section>
 
     <!-- Work Section -->
     <section id="work">
-        <h2>Work</h2>
+        <h2 class="aside-title">Work</h2>
         <div>**work item card 1**
             <img />**work item img**
             <p>**description of work item**</p>
@@ -59,13 +70,14 @@
 
     <!-- Contact Me Section -->
     <section id="contact-me">
-        <h2>Contact Me</h2>
+        <div class="aside-title">
+            <h2>Contact<br>Me</h2>
+        </div>
+        
         <ul>
             <li>Phone</li>
             <li>Email</li>
             <li>GitHub</li>
-            <li>Placeholder</li>
-            <li>Placeholder</li>
         </ul>
     </section>
 
