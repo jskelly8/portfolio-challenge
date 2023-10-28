@@ -11,7 +11,7 @@
     --LightPink: #FFB3FF;
 }
 
-body {
+main {
     background-color: var(--DarkGray);
 }
 
@@ -71,7 +71,6 @@ header nav ul li a {
     width: 20%;
     height: auto;
     display: flex;
-    flex-direction: column;
     justify-content: right;
     text-align: right;
     padding: 10px 20px 10px 0;
@@ -88,20 +87,77 @@ header nav ul li a {
     padding-right: 10px;
 }
 
-.main-content {
+.about-content {
     display: flex;
     height: auto;
     width: 60%;
     justify-content: flex-end;
     text-align: start;
     padding: 10px;
+}
 
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
     
 }
 
-/* Styling adjust when viewing on Smaller laptop screens (screen sizes at 769px-992px) */
-@media screen and (max-width: 992px) {
+#work-image-1-container {
+    display: flex;
+    width: 46%;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#work-image-1 {
+    display: flex;
+    /* padding: 30px; */
+    justify-content: space-between;
+}
+
+.work-other-images-containter {
+    display: flex;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* padding-left: 5px; */
     
+}
+.work-other-images {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    width: fit-content;
+    height: auto;
+    /* justify-content: flex-end; */
+    padding: 10px;
+    flex-shrink: initial;
+    flex-direction: row;
+}
+
+.img {
+    width: 300px;
+    height: 229px;
+    /* justify-content: center; */
+}
+
+/* Styling adjust when viewing on Smaller laptop screens (screen sizes at 769px-992px) */
+@media screen and (max-width: 1300px) {
+    /* .work-other-images-containter {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    } */
+
+    /* .work-other-images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    } */
 }
 
 /* Styling adjust when viewing on Tablet screens (screen sizes at 426px-768px) */
