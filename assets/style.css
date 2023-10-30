@@ -160,9 +160,13 @@ section nav ul {
     
 }
 section nav ul li {
-    padding: 0 140px;
+    padding: 0 100px;
     color: var(--LightPink);
     font-size: larger;
+}
+
+section nav ul li a {
+    color: inherit;
 }
 
 /* Styling adjust when viewing on Smaller laptop screens (screen sizes at 769px-992px) */
@@ -183,7 +187,7 @@ section nav ul li {
     }
 
     section nav ul li {
-        padding: 0 60px;
+        padding: 0 40px;
     }
     
 }
@@ -201,6 +205,9 @@ section nav ul li {
         width: 150px;
         height: auto;
         padding-left: 22px;
+    }
+    section nav ul {
+        flex-direction: column;
     }
 }
 
@@ -246,8 +253,9 @@ section nav ul li {
     #contact-list {
         width: 60%;
     }
-    
-    section nav ul li {
-        padding: 0 5px;
+
+    section nav ul {
+        flex-direction: column;
     }
+    
 }
