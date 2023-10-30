@@ -20,7 +20,7 @@ URL of deployed application:
 README template used from: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide 
 	edX Boot Camps LLC. (2022, October 27). Professional readme guide. Professional README Guide | The Full-Stack Blog. https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide 
 
-Hero Photo used from free-to-use photo library site:
+Hero/Banner Photo used from free-to-use photo library site:
 Renders, Bango. (n.d.). Free stock photos from Bango Renders - StockSnap.io. StockSnap. Retrieved October 26, 2023, from https://stocksnap.io/author/bango3d
 
-Help on flexbox layout from Boot Camp Tutor Team: Matthew Calimbas, see his work by visiting: https://github.com/MattyCalimbas
+Help on flexbox layout & Image media screen queries from Boot Camp Tutor Team: Matthew Calimbas, see his work by visiting: https://github.com/MattyCalimbas
