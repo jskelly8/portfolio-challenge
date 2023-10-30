@@ -10,10 +10,10 @@ This project was to build a portfolio for my self, which demonstrates my knowleg
 
 Screenshot of deployed application:
 
-<!-- screenshot -->
+![Screenshot of Portfolio Website](./assets/Images/PortolioClip.png)
 
 URL of deployed application: 
-<!-- URL -->
+https://jskelly8.github.io/portfolio-challenge/
 
 ## Credits
 
